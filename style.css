@@ -1,0 +1,117 @@
+body {
+    margin: 100px;
+}
+
+h2 {
+    font-size: 35px;
+    color: green;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.hr p, .hr1 p {
+    font-size: 20px;
+    padding-left: 50px;
+    /* padding-bottom: 10px; */
+}
+
+hr {
+    position: relative;
+    bottom: -170px;
+    border: 1px solid black;
+    width: 1300px;
+    height: 3px;
+    background-color: rgb(43, 40, 40);
+}
+
+.hr1 {
+    padding-top: 100px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card img, .card1 img, .card2 img, .card3 img, .card4 img ,.card5 img , .card6 img, .card7 img{
+    position: relative;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+
+.card, .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+    text-align: center;
+}
+
+.cart1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t, .a, .b, .c, .d, .e, .f, .g {
+    font-size: 25px;
+    color: red;
+}
+
+.cart1 p {
+    padding-right: 20px;
+    font-size: 25px;
+}
+
+.cart1 h3 {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.cart1 h3:hover {
+    background-color: red;
+    color: white;
+}
+
+.card:hover img{
+    bottom: 40px;
+    content: url(Img_1.png);
+}
+
+.card1:hover img{
+    bottom: 40px;
+    content: url(Img_Il-Biscotto-al-Cioccolato_\(600x600\).png);
+}
+
+.card2:hover img{
+    bottom: 40px;
+    content: url(Img_Il-Biscotto-Arancia-e-Nocciola_\(600x600\).png);
+}
+
+.card3:hover img{
+    bottom: 40px;
+    content: url(Img_Il-Biscotto-Frollino_\(600x600\).png);
+}
+
+.card4:hover img{
+    bottom: 40px;
+    content: url(Img_Il-Biscotto-al-Limone_\(600x600\).png);
+}
+
+.card5:hover img{
+    bottom: 40px;
+    content: url(Img_Il-Biscotto-Gocciolato_\(600x600\).png);
+}
+
+.card6:hover img{
+    bottom: 40px;
+    content: url(Img_Il-Biscotto-Gocciolato_\(600x600\).png);
+}
+
+.card7:hover img{
+    bottom: 40px;
+    content: url(Img_Il-Biscotto-Muscovado-e-Cannella_\(600x600\).png);
+}
+
+.card:hover .t , .card1:hover .a, .card2:hover .b, .card3:hover .c,  .card4:hover .d,  .card5:hover .e,  .card6:hover .f,  .card7:hover .g{
+    opacity: 0.5;
+}
